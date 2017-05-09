@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea
+docprocflink.iml
+src/main/resources/saxon-license.lic
+data
+dataout
+target
