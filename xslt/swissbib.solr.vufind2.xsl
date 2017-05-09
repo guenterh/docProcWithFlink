@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
-    xmlns:java-tika-ext="java:org.swissbib.documentprocessing.plugins.FulltextContentEnrichment"
-    xmlns:java-gnd-ext="java:org.swissbib.documentprocessing.plugins.GNDContentEnrichment"
+    xmlns:java-tika-ext="java:org.swissbib.docproc.flink.plugins.FulltextContentEnrichment"
+    xmlns:java-gnd-ext="java:org.swissbib.docproc.flink.plugins.GNDContentEnrichment"
     xmlns:java-viaf-ext="java:org.swissbib.documentprocessing.plugins.ViafContentEnrichment"
-    xmlns:java-dsv11-ext="java:org.swissbib.documentprocessing.plugins.DSV11ContentEnrichment"
-    xmlns:java-nodouble-ext="java:org.swissbib.documentprocessing.plugins.RemoveDuplicates"
-    xmlns:java-isbn-ext="java:org.swissbib.documentprocessing.plugins.CreateSecondISBN"
-    xmlns:java-analyzeValue="java:org.swissbib.documentprocessing.plugins.SolrStringTypePreprocessor"
+    xmlns:java-dsv11-ext="java:org.swissbib.docproc.flink.plugins.DSV11ContentEnrichment"
+    xmlns:java-nodouble-ext="java:org.swissbib.docproc.flink.plugins.RemoveDuplicates"
+    xmlns:java-isbn-ext="java:org.swissbib.docproc.flink.plugins.CreateSecondISBN"
+    xmlns:java-analyzeValue="java:org.swissbib.docproc.flink.plugins.SolrStringTypePreprocessor"
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xmlns:swissbib="www.swissbib.org/solr/documentprocessing.plugins" exclude-result-prefixes="java-tika-ext java-gnd-ext java-viaf-ext java-dsv11-ext java-nodouble-ext fn swissbib java-isbn-ext java-analyzeValue">
     <!--xmlns:fn="http://www.w3.org/2005/xpath-functions"> -->
